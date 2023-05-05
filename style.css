@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+body {
+  color: white;
+  background-color: #393939;
+  font-size: large;
+  line-height: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+
+}
+h1, h2 ,h3 {
+  color: #FF5A09;
+  font-size: x-large;
+  line-height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+a {
+  color: #FF9900;
+  text-decoration: none;
+  }
+
+a:hover {
+  color: #ea4315;
+}
+
+/* div {
+  width: 800px;
+  margin: 0 auto;
+} */
+.container{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.center-link{
+  margin: 10px 35%;
+}
+
+.center-element{
+    margin: 10px 35%;
+}
+
+.card {
+  box-shadow: 0 10px 30px rgba(0,0,0,.4);
+  background: #6E6E6E;
+  padding: 30px;
+  border-radius: 4px;
+  margin: 10px;
+  }
+
+.img-circle {
+  border-radius: 50%;
+  width: 20%;
+  height: 20%;
+  }
+.text-center {
+  text-align: center;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
